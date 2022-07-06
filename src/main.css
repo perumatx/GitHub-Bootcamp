@@ -1,0 +1,53 @@
+.tiles {
+    counter-reset: cool -1 good 0;
+    padding: 12px 0;
+  }
+  .tiles > div {
+    margin: 0;
+    padding: 2px;
+  }
+  .tiles > .col-xs-2 {
+    width: 20%;
+  }
+  .tiles > .col-xs-4 {
+    width: 40%;
+  }
+  .tiles > div:nth-of-type(3) > div {
+    margin-bottom: -100%;
+  }
+  /* .tiles > div:nth-of-type(7) {
+    margin-left: 40%;
+  } */
+  .tiles > div:nth-of-type(8),
+  .tiles > div:nth-of-type(22) {
+    clear: both;
+  }
+  .tiles > div:nth-of-type(19) {
+    clear: left;
+  }
+  
+  .tiles > div > div {
+    position: relative;
+  }
+  .tiles > div > div:before {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    left: 8px;
+    position: absolute;
+    top: 2px;
+  }
+  .tiles > div.col-xs-2 > div:before {
+    content: counter(good);
+    counter-increment: good;
+  }
+  .tiles > div.col-xs-4 > div:before {
+    content: counter(cool);
+    counter-increment: cool;
+    font-size: 56px;
+  }
+  .tiles img {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
