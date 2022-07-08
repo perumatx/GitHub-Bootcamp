@@ -21,6 +21,12 @@
 5. Create Pull request (from your branch to main branch)
 
 
-## Part 2 - Workflows
+## Part 2 - GitHub Workflows
 
 ## Part 3 - Continuous Integration
+
+## Part 4 - GitHub Custom Actions
+
+## Part 5 - GitHub Runners
+
+## Part 6 - Docker Images
