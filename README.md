@@ -1,6 +1,7 @@
 # GitHub-Bootcamp
 
-## Part 1 - Get Started
+## Day 1 
+### Get Started
 
 1. Clone the Project
 
@@ -21,12 +22,36 @@
 5. Create Pull request (from your branch to main branch)
 
 
-## Part 2 - GitHub Workflows
+### GitHub Workflows
 
-## Part 3 - Continuous Integration
+1.
+2.
+3.
 
-## Part 4 - GitHub Custom Actions
+### Lab 
 
-## Part 5 - GitHub Runners
+- https://lab.github.com/githubtraining/github-actions:-continuous-integration
 
-## Part 6 - Docker Images
+## Day 2
+### GitHub Continuous Integration
+
+1.
+2.
+3.
+
+### GitHub Advance Workflows
+
+1.
+2.
+3.
+
+### GitHub Custom Actions
+
+1.
+2.
+3.
+
+### Lab 
+
+- https
+
