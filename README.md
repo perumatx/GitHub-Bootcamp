@@ -1,6 +1,6 @@
 # GitHub-Bootcamp
 
-## Get Started
+## Part 1 - Get Started
 
 1. Clone the Project
 
@@ -21,3 +21,6 @@
 5. Create Pull request (from your branch to main branch)
 
 
+## Part 2 - Workflows
+
+## Part 3 - Continuous Integration
