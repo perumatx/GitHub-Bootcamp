@@ -5,6 +5,8 @@
 
 1. Clone the Project
 
+- [**Git Guide**](/git.md)
+
         git clone https://github.com/davronaliyev/GitHub-Bootcamp.git
         
 2. Create new Branch
@@ -13,9 +15,10 @@
 
 3. Fix the Code
 
-        Update from:  src="src/img/baseImage.png">
-        To:           src="src/img/task1.png">
-        Note: Make sure put your task number 
+        - Open index.html
+        - Then update baseImage.png to your task.png
+                src="src/img/baseImage.png">
+                src="src/img/task1.png"> 
 
 4. Commit and Push your changes
 
