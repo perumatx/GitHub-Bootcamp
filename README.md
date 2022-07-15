@@ -22,6 +22,10 @@
 
 4. Commit and Push your changes
 
+        git add .
+        git commit -m "Task 1 fix"
+        git push
+
 5. Create Pull request (from your branch to main branch)
 
 
