@@ -1,6 +1,6 @@
 # GitHub-Bootcamp
 
-## Get Started
+## Get Started (Davron)
 
 1. Clone the Project
 
@@ -28,29 +28,14 @@
 5. Create Pull request (from your branch to main branch)
 
 
-## GitHub Workflows
+## GitHub Workflows (Kumarapillai, Govindaraj)
 
 1.
 2.
 3.
 
-### Lab 
 
-- https://lab.github.com/githubtraining/github-actions:-continuous-integration
-
-## GitHub Continuous Integration
-
-1.
-2.
-3.
-
-## GitHub Advance Workflows
-
-1.
-2.
-3.
-
-## GitHub Custom Actions
+## Advance Workflows & Continuous Integration (Perumal, thiYag)
 
 1.
 2.
@@ -58,5 +43,12 @@
 
 ## Lab 
 
-- https
+1.
+2.
+3.
+
+
+## Extra Lab 
+
+- https://lab.github.com/githubtraining/github-actions:-continuous-integration
 
