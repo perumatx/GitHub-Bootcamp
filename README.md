@@ -30,8 +30,19 @@
 
 ## GitHub Workflows (Kumarapillai, Govindaraj)
 
-1.
-2.
+1. Creating your first workflow <br />
+   workflows are written in yaml. usually stored in ```./github/workflows``` directory 
+    ```yaml
+     name: GitHub Actions Demo
+     on: [push]
+     jobs:
+       job 1:
+         'do something' 
+   ```
+2. Actions <br />
+    actions are event driven ( push, commit, etc) <br />
+   ![alt text](https://cdn.hashnode.com/res/hashnode/image/upload/v1629613850021/Hzlju3ctU.png?auto=compress,format&format=webp "workflow")
+    
 3.
 
 
