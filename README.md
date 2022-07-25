@@ -28,24 +28,37 @@
 5. Create Pull request (from your branch to main branch)
 
 
-## GitHub Workflows (Kumarapillai, Govindaraj)
+## GitHub Workflows aka Actions (Kumarapillai, Govindaraj)
 
-1. Creating your first workflow <br />
-   workflows are written in yaml. usually stored in ```./github/workflows``` directory 
-    ```yaml
-     name: GitHub Actions Demo
-     on: [push]
-     jobs:
-       job 1:
-         'do something' 
-   ```
-2. Actions <br />
-    actions are event driven ( push, commit, etc) <br />
-   ![alt text](https://cdn.hashnode.com/res/hashnode/image/upload/v1629613850021/Hzlju3ctU.png?auto=compress,format&format=webp "workflow")
+1.  Actions <br /> 
+       actions are event driven ( push, commit, etc) [Events that trigger workflows](https://docs.github.com/en/actions/reference/events-that-trigger-workflows)<br />
+       Picture
+      ![alt text](https://docs.github.com/assets/cb-25535/images/help/images/overview-actions-simple.png "workflow")
+2. Creating your first workflow <br />
+      workflows are written in yaml. usually stored in ```./github/workflows``` directory 
+      ```yaml
+         name: GitHub Actions Demo
+             on: [push]
+               jobs:
+                 job 1:
+                   runs-on: on-prem
+                     steps:
+                       'do something' 
+    ```
     
-3.
+3. Let's Break down <br />
 
-
+  ````name : GitHub Actions Demo```` Optional - The name of the workflow as it will appear in the Actions tab of the GitHub repository.
+ ***            
+  ````on: [push]```` Specifies the trigger for this workflow. This example uses the push event, so a workflow run is triggered every time someone pushes a change to the repository or merges a pull request. This is triggered by a push to every branch
+ ***
+  ````jobs:```` Groups together all the jobs runs in the workflow
+ ***
+  ````job1```` Job name
+ ***
+  ````runs-on: on-prem```` Configures the job to run on the on-prem Linux runner. we can also configure to run on multi-platform and dind runners
+ ***
+  ````steps```` Groups together all the steps that run in the job  
 ## Advance Workflows & Continuous Integration (Perumal, thiYag)
 
 1.
