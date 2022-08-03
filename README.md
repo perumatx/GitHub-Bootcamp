@@ -61,15 +61,23 @@
   ````steps```` Groups together all the steps that run in the job  
 ## Advance Workflows & Continuous Integration (Perumal, thiYag)
 
-1.
-2.
-3.
+1. Functions
 
-## Lab 
+2. Continuous Integration
 
-1.
-2.
-3.
+3. Environment variables
+
+4. Encrypted variables
+
+5. Strategy and matrix
+
+6. Containers in jobs
+
+7. Trigger jobs using GitHub API
+
+8. Custom GitHub actions - Docker container , JavaScript and Composite Actions
+
+9. GitHub Selfhosted Runners
 
 
 ## Extra Lab 
